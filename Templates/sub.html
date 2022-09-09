@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/c
+</head>
+<body>
+
+
+    <div class="container">
+
+        <h1 class='header' ><span class="header_font">Tuberculosis stage III Prediction System</span>
+
+        </h1>
+    </div>
+
+
+    <center>
+        <h4>Hey, {{ n }} Attach The X_Ray Image.</h4>
+        <form class="form">
+        <input class="form-control" type="file" name="imagefile">
+
+        </center>
+        <center>
+
+            <button type="submit" id="subbtn">Predict</button>
+        </form>
+        </center>
+        <footer class='footer'>
+            <p>@2022</p>
+        </footer>
+
+    <style>
+
+
+
+        .header{
+        padding: 30px;
+        text-align: center;
+        background: #000000;
+        color: white;
+        font-size: 30px;
+        width: 100%;
+
+        margin:-8px;
+        }
+
+
+        body{
+
+           text-align: center;
+           margin: 0;
+           padding: 0;
+           width: 100%;
+           height: 100%;
+           display: flex;
+           flex-direction: column;
+           position: absolute;
+           overflow-x: hidden;
+       }
+
+       #subbtn {
+        background-color: #04AA6D;
+        color: white;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 14px;
+        cursor: pointer;
+        width: 30%;
+        opacity: 0.9;
+        }
+
+     .form{
+
+            padding: 1rem;
+            background-color: hsl(0, 0%, 100%);
+            gap: 2rem;
+
+
+
+
+    }
+
+
+
+    .footer{
+            text-align: center;
+            background: #000000;
+            color: white;
+            font-size: 15px;
+            margin:-8px;
+            margin-top: auto;
+            padding: 0px;
+            bottom: 0;
+            width: 102%;
+
+    }
+
+    </style>
+
+</body>
+</html>
